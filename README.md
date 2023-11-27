@@ -3,15 +3,15 @@ This project is a microblogging platform developed using React and Firebase. It 
 
 # # Features
 
-# # # User Authentication:
+# #  User Authentication:
 Users can sign up for an account.
 Existing users can log in securely.
 
-# # # Microblogging:
+# #  Microblogging:
 Users can post short messages in the microblog.
 Messages are displayed in a chronological order.
 
-# # # Profile Management:
+# #  Profile Management:
 Users can update their profile information, including display name and profile picture.
 
 # # Technologies Used
