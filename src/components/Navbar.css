@@ -1,0 +1,43 @@
+.navbarstyle {
+  position: absolute;
+  width: 1076px;
+  height: 58px;
+  left: 182px;
+  top: 0px;
+
+  background: #343a40;
+  border-radius: 6px;
+}
+
+a,
+a:link,
+a:focus,
+a:hover,
+a:active {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+}
+
+a:focus,
+a:hover,
+a:active {
+  color: white;
+  text-decoration: none;
+}
+
+.firstitem {
+  display: inline;
+  text-decoration: none;
+}
+
+.seconditem {
+  display: inline;
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+.thirditem {
+  display: inline;
+  text-decoration: none;
+  margin-left: 30px;
+}
