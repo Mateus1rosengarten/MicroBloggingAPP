@@ -1,0 +1,428 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.App {
+  text-align: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/********************************* AUTH PAGE *********************************/
+
+.h3-welcomeLogged {
+  position: absolute;
+  width: 103px;
+  height: 42px;
+  left: 785px;
+  top: 90px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  color: #ffffff;
+}
+
+.h3-welcomeUnLogged {
+  position: absolute;
+
+  white-space: nowrap;
+  width: 103px;
+  height: 42px;
+  left: 785px;
+  top: 90px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #ffffff;
+}
+
+.h3-auth {
+  position: absolute;
+  width: 103px;
+  height: 42px;
+  left: 185px;
+  top: 90px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #ffffff;
+}
+
+.label-auth {
+  position: absolute;
+  width: 90px;
+  height: 21px;
+  left: 185px;
+  top: 200px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.label-authPass {
+  position: absolute;
+  width: 90px;
+  height: 21px;
+  left: 185px;
+  top: 255px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.AuthInputAuth {
+  box-sizing: border-box;
+  position: absolute;
+  width: 300px;
+  height: 41px;
+  left: 315px;
+  top: 190px;
+  border: 2px solid #cccccc;
+  border-radius: 6px;
+  background-color: #15202b;
+  color: #cccccc;
+  padding-left: 16px;
+}
+
+.AuthInputPass {
+  box-sizing: border-box;
+  position: absolute;
+  width: 300px;
+  height: 41px;
+  left: 315px;
+  top: 245px;
+  border: 2px solid #cccccc;
+  border-radius: 6px;
+  background-color: #15202b;
+  color: #cccccc;
+  padding-left: 16px;
+}
+
+.buttonLogin {
+  position: absolute;
+  width: 68px;
+  height: 34px;
+  left: 545px;
+  top: 300px;
+  color: white;
+  background-color: #007bff;
+  border: 1px solid #15202b;
+  border-radius: 4px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+.buttonLogout {
+  position: absolute;
+  width: 68px;
+  height: 34px;
+  right: 80px;
+  top: 10px;
+  color: white;
+  background-color: #007bff;
+  border: 1px solid #15202b;
+  border-radius: 4px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.h3-signUp {
+  position: absolute;
+  width: 103px;
+  height: 42px;
+  left: 185px;
+  top: 350px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #ffffff;
+}
+
+.label-sign {
+  position: absolute;
+  width: 90px;
+  height: 21px;
+  left: 185px;
+  top: 460px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.label-signPass {
+  position: absolute;
+  width: 90px;
+  height: 21px;
+  left: 185px;
+  top: 515px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.SignInputName {
+  box-sizing: border-box;
+  position: absolute;
+  width: 300px;
+  height: 41px;
+  left: 315px;
+  top: 450px;
+  border: 2px solid #cccccc;
+  border-radius: 6px;
+  background-color: #15202b;
+  color: #cccccc;
+  padding-left: 16px;
+}
+
+.SignInputPass {
+  box-sizing: border-box;
+  position: absolute;
+  width: 300px;
+  height: 41px;
+  left: 315px;
+  top: 505px;
+  border: 2px solid #cccccc;
+  border-radius: 6px;
+  background-color: #15202b;
+  color: #cccccc;
+  padding-left: 16px;
+}
+
+.buttonSign {
+  position: absolute;
+  width: 68px;
+  height: 34px;
+  left: 545px;
+  top: 560px;
+  color: white;
+  background-color: #007bff;
+  border: 1px solid #15202b;
+  border-radius: 4px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.buttonGoogle {
+  position: absolute;
+  width: 200px;
+  height: 34px;
+  left: 410px;
+  top: 140px;
+  color: "black";
+  background-color: #ffffff;
+  border: 1px solid #15202b;
+  border-radius: 4px;
+  font-family: "Roboto";
+  font-weight: 400;
+
+  line-height: 19px;
+
+  transition: background-color 0.3s, box-shadow 0.3s;
+  padding: 8px 16px 12px 40px;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.04), 0 1px 1px rgba(0, 0, 0, 0.25);
+  color: #757575;
+  font-size: 18px;
+  font-weight: 500;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNMTcuNiA5LjJsLS4xLTEuOEg5djMuNGg0LjhDMTMuNiAxMiAxMyAxMyAxMiAxMy42djIuMmgzYTguOCA4LjggMCAwIDAgMi42LTYuNnoiIGZpbGw9IiM0Mjg1RjQiIGZpbGwtcnVsZT0ibm9uemVybyIvPjxwYXRoIGQ9Ik05IDE4YzIuNCAwIDQuNS0uOCA2LTIuMmwtMy0yLjJhNS40IDUuNCAwIDAgMS04LTIuOUgxVjEzYTkgOSAwIDAgMCA4IDV6IiBmaWxsPSIjMzRBODUzIiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48cGF0aCBkPSJNNCAxMC43YTUuNCA1LjQgMCAwIDEgMC0zLjRWNUgxYTkgOSAwIDAgMCAwIDhsMy0yLjN6IiBmaWxsPSIjRkJCQzA1IiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48cGF0aCBkPSJNOSAzLjZjMS4zIDAgMi41LjQgMy40IDEuM0wxNSAyLjNBOSA5IDAgMCAwIDEgNWwzIDIuNGE1LjQgNS40IDAgMCAxIDUtMy43eiIgZmlsbD0iI0VBNDMzNSIgZmlsbC1ydWxlPSJub256ZXJvIi8+PHBhdGggZD0iTTAgMGgxOHYxOEgweiIvPjwvZz48L3N2Zz4=);
+
+  background-repeat: no-repeat;
+  background-position: 5px 9px;
+}
+
+.inputImage {
+  position: absolute;
+  top: 360px;
+  right: 225px;
+}
+
+.buttonImage {
+  position: absolute;
+  width: 68px;
+  height: 34px;
+  right: 435px;
+  top: 310px;
+  color: white;
+  background-color: #007bff;
+  border: 1px solid #15202b;
+  border-radius: 4px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.pictureLogin {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 270px;
+  right: 530px;
+}
+
+/********************************* LOGIN PAGE ********************************/
+
+.h3-profilepage {
+  position: absolute;
+  width: 103px;
+  height: 42px;
+  left: 369px;
+  top: 90px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #ffffff;
+}
+.h3-profilepageText {
+  position: absolute;
+  width: 103px;
+  height: 42px;
+  left: 369px;
+  top: 390px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  white-space: nowrap;
+  color: #ffffff;
+}
+
+.label-login {
+  position: absolute;
+  width: 90px;
+  height: 21px;
+  left: 368px;
+  top: 195px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.loginInput {
+  box-sizing: border-box;
+  position: absolute;
+  width: 600px;
+  height: 61px;
+  left: 367px;
+  top: 220px;
+  border: 2px solid #cccccc;
+  border-radius: 6px;
+  background-color: #15202b;
+  color: #cccccc;
+  padding-left: 16px;
+}
+
+input[type="text"] {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+::placeholder {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 5px 0 0 0px;
+  color: #cccccc;
+}
+
+:focus {
+  outline: none;
+}
+
+.buttonsave {
+  position: absolute;
+  width: 68px;
+  height: 34px;
+  left: 889px;
+  top: 295px;
+  background: #007bff;
+  border: 1px solid #15202b;
+  border-radius: 4px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+/****************************** ADD TWEET **********************************/
+
+.postBox {
+  position: absolute;
+  width: 600px;
+  height: 180px;
+  left: 367px;
+  top: 105px;
+  border: 2px solid #cccccc;
+  border-radius: 6px;
+}
+
+.textareastyle {
+  position: absolute;
+  left: 10px;
+  margin-top: 10px;
+  width: 400px;
+  resize: none;
+  border: none;
+  background-color: #15202b;
+  color: #cccccc;
+}
+
+.buttontweet {
+  position: absolute;
+  width: 68px;
+  height: 34px;
+  left: 525px;
+  top: 131px;
+  color: white;
+  background-color: #007bff;
+  border: 1px solid #15202b;
+  border-radius: 4px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.listContainer {
+  position: absolute;
+  width: 600px;
+  height: 1200px;
+  left: 367px;
+  top: 305px;
+}
+
+.buttonpage1,
+.buttonpage2,
+.buttonpage3 {
+  margin: 5px;
+}
