@@ -15,7 +15,7 @@ Profile Management:
 Users can update their profile information, including display name and profile picture.
 
 # # Technologies Used
-React: A JavaScript library for building user interfaces.
+React: A JavaScript library for building user interfaces. <br>
 Firebase: A comprehensive mobile and web app development platform provided by Google.
 
 
