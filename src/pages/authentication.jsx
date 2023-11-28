@@ -153,6 +153,7 @@ function Authetication() {
       <input
         className="SignInputPass"
         id="signPass"
+        type={"password"}
         ref={inputSignPassRef}
         onChange={(e) => {
           setRegisterPass(e.target.value);
